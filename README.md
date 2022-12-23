@@ -1,3 +1,2 @@
 # BMI
-BMI Calculator
-Thi is one of my first collegeue projects
+BMI Calculator was one of my first projects at college
