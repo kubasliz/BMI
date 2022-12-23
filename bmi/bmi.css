@@ -1,0 +1,105 @@
+* { /* '*' = dowolny znacznik*/ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(./img/backgrond.png);
+    background-repeat: repeat;
+    background-color: #fff;
+}
+
+header {
+    background-color: rgb(0, 128, 128, 0.5);
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 0 0 30px 30px;
+    color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 40px auto 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 128, 128, 0.5);
+    border-radius: 25px;
+    width: 840px;
+    font-weight: bold;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: large;
+}
+  
+li a:hover:not(.active) {
+    background-color: rgba(0, 168, 168, 0.5);
+}
+  
+.active {
+    background-color: rgb(0, 128, 128, 0.5);
+}
+
+main {
+    width: 800px;
+    height: 60vh;
+    margin: 40px auto 0;
+    background-image: url(./img/fruits.png);
+    background-size: cover;
+    border-radius: 30px 30px 0 0;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.calculate-bmi {
+    width: 200px;
+    margin: 80px auto 0;
+}
+
+input[type=number], button {
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000;
+    background-color: aliceblue;
+}
+button {
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: rgb(51, 204, 204, 0.5);
+}
+
+.result-bmi {
+    width: 200px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.margin {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(0, 128, 128, 0.5);
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    font-size: small;
+}
