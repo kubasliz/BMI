@@ -79,4 +79,3 @@ function calculateBmi() {
         document.getElementById('risk-of-disease-bmi').innerHTML = 'ekstremalny poziom ryzyka';
     }
 }
-
