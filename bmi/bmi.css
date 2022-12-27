@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(./img/backgrond.png);
+    background-image: url(src/img/backgrond.png);
     background-repeat: repeat;
     background-color: #fff;
 }
@@ -55,7 +55,7 @@ main {
     width: 800px;
     height: 60vh;
     margin: 40px auto 0;
-    background-image: url(./img/fruits.png);
+    background-image: url(src/img/fruits.png);
     background-size: cover;
     border-radius: 30px 30px 0 0;
     padding: 20px;
