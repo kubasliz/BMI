@@ -29,11 +29,11 @@ header {
     width: 840px;
     font-weight: bold;
 }
-  
+
 .li-nav {
     float: left;
 }
-  
+
 .li-nav a {
     display: block;
     color: aliceblue;
@@ -42,11 +42,11 @@ header {
     text-decoration: none;
     font-size: large;
 }
-  
+
 .li-nav a:hover:not(.active) {
     background-color: rgb(0, 168, 168, 0.5);
 }
-  
+
 .active {
     background-color: rgb(0, 128, 128, 0.5);
 }
@@ -72,7 +72,7 @@ main {
 }
 
 .main-pages {
-    color: aliceblue; 
+    color: aliceblue;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -85,7 +85,8 @@ main {
     margin: 80px auto 0;
 }
 
-input[type=number], button {
+input[type="number"],
+button {
     font-size: 20px;
     border-radius: 20px;
     padding: 10px;
